@@ -1,0 +1,10 @@
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Se ha creado una boleta!'),
+    };
+    return response;
+};
+
+//https://2sugr3qev1.execute-api.us-east-1.amazonaws.com/test/boleta METODO PUT
